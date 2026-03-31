@@ -68,7 +68,7 @@ const content = {
     },
     info: {
       tag: 'The Essentials',
-      title: 'INFORMATION',
+      title: 'INFO',
       sections: [
         {
           title: 'Booking Deposit',
@@ -192,7 +192,7 @@ const content = {
     },
     info: {
       tag: 'A Lényeg',
-      title: 'INFORMÁCIÓ',
+      title: 'INFO',
       sections: [
         {
           title: 'Foglaló',
