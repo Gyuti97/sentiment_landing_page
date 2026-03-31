@@ -241,7 +241,7 @@ const content = {
     },
     booking: {
       tag: 'Az Első Lépés',
-      title: 'FOGLALÁSI AJÁNLATKÉRÉS',
+      title: 'FOGLALÁS',
       body: 'Köszönjük érdeklődésedet, hogy velünk szeretnél alkotni. Kérjük, töltsd ki az alábbi űrlapot a lehető legrészletesebben. Ez a közös folyamatunk első lépése. Az ajánlatkéréseket időszakosan bíráljuk el, és 5-7 munkanapon belül válaszolunk, ha a projekt illeszkedik művészi irányzatunkhoz.',
       formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfrAmnBiQ6C4_2Vpj1rmJWTSZanVBizE9F1T7fBcBChyhKuSw/viewform?embedded=true' // IMPORTANT: Replace with your Hungarian Google Form URL
     },
