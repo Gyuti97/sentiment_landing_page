@@ -68,7 +68,7 @@ const content = {
     },
     info: {
       tag: 'The Essentials',
-      title: 'INFO',
+      title: 'INFORMATION',
       sections: [
         {
           title: 'Booking Deposit',
@@ -119,6 +119,7 @@ const content = {
       tag: 'The First Step',
       title: 'BOOKING INQUIRY',
       body: 'Thank you for your interest in creating with us. Please fill out the form below with as much detail as possible. This is the first step in our collaborative process. We review submissions periodically and will respond within 5-7 business days if your project aligns with our artistic direction.',
+      buttonText: 'Fill out the form to get in touch',
       formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfrAmnBiQ6C4_2Vpj1rmJWTSZanVBizE9F1T7fBcBChyhKuSw/viewform?embedded=true'
     },
     about: {
@@ -192,7 +193,7 @@ const content = {
     },
     info: {
       tag: 'A Lényeg',
-      title: 'INFO',
+      title: 'INFORMÁCIÓ',
       sections: [
         {
           title: 'Foglaló',
@@ -241,8 +242,9 @@ const content = {
     },
     booking: {
       tag: 'Az Első Lépés',
-      title: 'FOGLALÁS',
+      title: 'FOGLALÁSI AJÁNLATKÉRÉS',
       body: 'Köszönjük érdeklődésedet, hogy velünk szeretnél alkotni. Kérjük, töltsd ki az alábbi űrlapot a lehető legrészletesebben. Ez a közös folyamatunk első lépése. Az ajánlatkéréseket időszakosan bíráljuk el, és 5-7 munkanapon belül válaszolunk, ha a projekt illeszkedik művészi irányzatunkhoz.',
+      buttonText: 'Töltsd ki az űrlapot a kapcsolatfelvételhez',
       formUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfrAmnBiQ6C4_2Vpj1rmJWTSZanVBizE9F1T7fBcBChyhKuSw/viewform?embedded=true' // IMPORTANT: Replace with your Hungarian Google Form URL
     },
     about: {
