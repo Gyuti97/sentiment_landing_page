@@ -1,4 +1,5 @@
 
+// Rebuild trigger
 import React from 'react';
 
 interface BookingProps {
@@ -6,6 +7,7 @@ interface BookingProps {
     tag: string;
     title: string;
     body: string;
+    buttonText: string;
     formUrl: string;
   }
 }
@@ -19,7 +21,7 @@ const Booking: React.FC<BookingProps> = ({ content }) => {
   return (
     <section 
       id="booking" 
-      className="relative text-off-white overflow-hidden"
+      className="relative text-off-white overflow-hidden min-h-screen flex items-center"
       style={{
         backgroundImage: `url(${marbleImageUrl})`,
         backgroundSize: 'cover',
@@ -36,19 +38,15 @@ const Booking: React.FC<BookingProps> = ({ content }) => {
           {content.body}
         </p>
         
-        <div className="w-full h-[1200px] md:h-[1000px] overflow-hidden rounded-md shadow-2xl">
-          <iframe
-            src={content.formUrl}
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            marginHeight={0}
-            marginWidth={0}
-            title="Sentiment Tattoo Studio Booking Inquiry Form"
-            className="w-full h-full"
+        <div className="flex justify-center">
+          <a 
+            href={content.formUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block border border-off-white/50 text-off-white py-4 px-10 text-sm uppercase tracking-widest hover:bg-off-white hover:text-charcoal transition-all duration-300 shadow-xl backdrop-blur-sm"
           >
-            Loading…
-          </iframe>
+            {content.buttonText}
+          </a>
         </div>
       </div>
     </section>
