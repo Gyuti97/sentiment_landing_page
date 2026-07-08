@@ -1,0 +1,8 @@
+# Treat webp and other image files as binary to avoid line ending conversion and corruption
+*.webp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
